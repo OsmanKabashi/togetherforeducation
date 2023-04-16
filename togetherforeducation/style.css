@@ -1,0 +1,124 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+
+
+.logo {
+  width: 120px;
+  height: auto;
+  border: none;
+  border-radius: 10px;
+  margin-left: 100px;
+  margin-top:13px;
+}
+
+
+
+.navbar{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 130px;
+}
+.navItems ul{
+  list-style-type: none;
+  display: flex;  
+  flex-direction: row;
+}
+
+.navItems ul li a {
+  text-decoration: none;
+  color:#867070 ;
+  font-size: 15px;
+}
+
+.navItems ul li a button {
+  height: 30px;
+  width: 150px;
+  font-size:15px;
+  border: none;
+  background-color: white;
+  border-right: 1px solid gray;
+  font-family: 'Quicksand', sans-serif;
+}
+
+
+#kontakt {
+  border-right: none;
+}
+
+
+
+.navItems {
+  margin-left: 150px;
+  padding-right: 0px;
+}
+
+
+button:hover {
+  cursor: pointer;
+}
+
+#signIn {
+  border-right: none;
+  width: 100px;
+  height: 30px;
+  background-color: #009DDC;
+  color: white;
+  border-radius: 5px;
+  font-weight: 450;
+  font-family: 'Quicksand', sans-serif;
+  margin-left: 160px;
+  font-size: 13px;
+  transition: 0.5s;
+}
+
+#signIn:hover {
+  background-color: #045879;
+}
+
+#signIn:active {
+  background-color: #47c8fa;
+}
+
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.cover {
+  width: 100%;
+  height: auto;
+  
+}
+
+.introduction {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.titulli {
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  color: /*#009DDC*/ black;
+  font-weight: 900;
+  font-size: 27px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.teksti{
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  margin-left: 220px;
+  margin-right: 220px;
+  margin-top: 40px;
+  margin-bottom: 100px;
+  font-size: larger;
+  line-height: 25px;
+}
